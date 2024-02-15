@@ -4,6 +4,11 @@
     <custom>false</custom>
     <fieldPermissions>
         <editable>true</editable>
+        <field>Account.Is_Legit__c</field>
+        <readable>true</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>true</editable>
         <field>Account.Pipeline_Sync__c</field>
         <readable>true</readable>
     </fieldPermissions>
