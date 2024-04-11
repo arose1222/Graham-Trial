@@ -12,8 +12,16 @@
         <field>Account.gTest__c</field>
         <readable>true</readable>
     </fieldPermissions>
+    <fieldPermissions>
+        <editable>true</editable>
+        <field>Contact.Is_Tall__c</field>
+        <readable>true</readable>
+    </fieldPermissions>
     <layoutAssignments>
         <layout>Account-Formato de cuentas</layout>
+    </layoutAssignments>
+    <layoutAssignments>
+        <layout>Contact-Formato de contactos</layout>
     </layoutAssignments>
     <loginHours n1:nil="true" />
     <loginIpRanges>
