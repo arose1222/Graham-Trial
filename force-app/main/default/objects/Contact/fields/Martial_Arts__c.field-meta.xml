@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Martial_Arts__c</fullName>
+    <externalId>false</externalId>
+    <label>Martial Arts</label>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <type>Picklist</type>
+    <valueSet>
+        <restricted>true</restricted>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>Karate</fullName>
+                <default>false</default>
+                <label>Karate</label>
+            </value>
+            <value>
+                <fullName>Kung-Fu</fullName>
+                <default>false</default>
+                <label>Kung-Fu</label>
+            </value>
+            <value>
+                <fullName>Jui Jitsu</fullName>
+                <default>false</default>
+                <label>Jui Jitsu</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>
