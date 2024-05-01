@@ -21,9 +21,9 @@
                 <label>Kung-Fu</label>
             </value>
             <value>
-                <fullName>Jui Jitsu</fullName>
+                <fullName>Jiu Jitsu</fullName>
                 <default>false</default>
-                <label>Jui Jitsu</label>
+                <label>Jiu Jitsu</label>
             </value>
         </valueSetDefinition>
     </valueSet>
