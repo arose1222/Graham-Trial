@@ -29,6 +29,10 @@
                 <behavior>Edit</behavior>
                 <field>Martial_Arts__c</field>
             </layoutItems>
+            <layoutItems>
+                <behavior>Edit</behavior>
+                <field>Primary_Color__c</field>
+            </layoutItems>
         </layoutColumns>
         <layoutColumns>
             <layoutItems>
