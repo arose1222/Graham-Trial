@@ -27,6 +27,11 @@
         <field>Case.Optional_Comment__c</field>
         <readable>true</readable>
     </fieldPermissions>
+    <fieldPermissions>
+        <editable>true</editable>
+        <field>Demo_Request__c.Demo_Type__c</field>
+        <readable>true</readable>
+    </fieldPermissions>
     <layoutAssignments>
         <layout>Account-Formato de cuentas</layout>
     </layoutAssignments>
@@ -36,12 +41,28 @@
     <layoutAssignments>
         <layout>CaseClose-Formato de Cerrar caso</layout>
     </layoutAssignments>
+    <layoutAssignments>
+        <layout>Demo_Request__c-Demo Request Layout</layout>
+    </layoutAssignments>
     <loginHours n1:nil="true" />
     <loginIpRanges>
         <description>All</description>
         <endAddress>255.255.255.255</endAddress>
         <startAddress>0.0.0.0</startAddress>
     </loginIpRanges>
+    <objectPermissions>
+        <allowCreate>true</allowCreate>
+        <allowDelete>true</allowDelete>
+        <allowEdit>true</allowEdit>
+        <allowRead>true</allowRead>
+        <modifyAllRecords>true</modifyAllRecords>
+        <object>Demo_Request__c</object>
+        <viewAllRecords>true</viewAllRecords>
+    </objectPermissions>
+    <tabVisibilities>
+        <tab>Demo_Request__c</tab>
+        <visibility>DefaultOn</visibility>
+    </tabVisibilities>
     <userLicense>Salesforce</userLicense>
     <userPermissions>
         <enabled>true</enabled>
